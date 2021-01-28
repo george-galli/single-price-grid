@@ -1,0 +1,222 @@
+body, div, h1, h2, h3, h4, ul, li, a, p, img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+body {
+  background-color: #E6EFF5;
+  font-family: 'Karla', sans-serif;
+}
+
+
+ul {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/*UPPER*/
+
+
+.top {
+  background: #FFFFFF;
+  max-width: 635px;
+  margin: 0 auto;
+  border-top-left-radius: 3%;
+  border-top-right-radius:3%;
+  margin-top: 160px;
+}
+
+
+
+
+.principal {
+  padding: 45px 70px 40px 40px;
+}
+
+
+.principal h1 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+  color: #2AB3B1;
+  margin-bottom: 15px;
+}
+
+
+.principal h2 {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.22px;
+  color: #C0DF33;
+  margin-bottom: 15px;
+}
+
+
+
+.principal p {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  line-height: 26px;
+  color: #9AA7BE;
+}
+
+
+/*BOTTON*/
+
+
+.topx {
+  background: #FFFFFF;
+  max-width: 635px;
+  margin: 0 auto;
+  border-top-left-radius: 3%;
+  border-top-right-radius:3%;
+}
+
+
+.top1 {
+  width: 317.5px;
+  margin: 0 auto;
+  float: left;
+  background: #2AB3B1;
+  padding: 40px 40px 40px 40px;
+}
+
+.top1::after, .top1::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.price h1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+}
+
+.price h2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.price h2 span {
+  font-size: 32px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.price p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-bottom: 23px;
+}
+
+
+.btn {
+  background: #C0DF33;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+  width: 237px;
+  margin: 0 auto;
+  padding: 15px 50px;
+  display: block;
+  border-radius: 4%;
+}
+
+
+.top2 {
+  background: #4ABFBD;
+  width: 317.5px;
+  margin: 0 auto;
+  padding: 40px 40px 40px 40px;
+  float: right;
+}
+
+
+.top2::after, .top2::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+.why h1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+
+.benefit li {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.45px;
+  letter-spacing: -0.17px;
+  color: #ffffff;
+  margin-bottom: 2px;
+}
+
+
+
+@media only screen and (max-width: 787px) {
+  .top {
+    width: 311px;
+    margin-top: 70px;
+  }
+  .principal {
+    padding: 35px 25px 40px 25px;
+  }
+  .principal h1 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 30px;
+  }
+  .principal h2 {
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 30px;
+  }
+  .principal p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.17px;
+  }
+  .topx {
+    max-width: 311px;
+  }
+  .top1 {
+    max-width: 311px;
+    padding: 25px;
+  }
+  .price h1 {
+    margin-bottom: 30px
+  }
+  .btn {
+    width: 263px;
+  }
+  .top2 {
+    width: 311px;
+    padding: 25px;
+    margin-bottom: 60px;
+  }
+  .why h1 {
+    margin-bottom: 28px;
+  }
+}
+
